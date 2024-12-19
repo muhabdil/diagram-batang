@@ -1,0 +1,28 @@
+.legend {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.legend span {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.legend .blue {
+    width: 20px;
+    height: 20px;
+    background-color: #014D65;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.legend .red {
+    width: 20px;
+    height: 20px;
+    background-color: #FF5733;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 5px;
+}
