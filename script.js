@@ -1,6 +1,7 @@
 window.onload = function () {
     var chart = new CanvasJS.Chart("chartContainer", {
-        animationEnabled: true,
+        animationEnabled: true, // Aktifkan animasi
+        animationDuration: 1500, // Tambahkan durasi animasi
         title: {
             text: "Laporan Penjualan Tahun 2022 dan 2023"
         },
@@ -57,4 +58,4 @@ window.onload = function () {
         ]
     });
     chart.render();
-}
+};
